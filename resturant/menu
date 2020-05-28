@@ -1,0 +1,69 @@
+<html>
+<head>
+
+
+
+<style>
+  *{padding:0;margin:0;box-sizing:border-box;}
+  .header{text-align:center;
+          font-family:cursive;
+		  color:white;
+		  font-size:20px;
+		  margin:10px;
+		  padding:5px;
+           }
+body{ position:absolute;background-color:rgba(0,0,0,0.7);}
+   .row{
+     width:100%;
+	 height:100%;
+	 box-sizing:border-box;
+	 display:flex;
+	 margin:0px 4px;
+   }
+   .column{
+   width:35%;
+   height:100%;
+   float:left;
+   margin:0px 4px;
+   position:relative;
+   }
+   .column img{
+    width:100%;
+	height:400px;
+	display:block;
+	margin:3px;
+	float:left;
+	overflow:hidden;
+   }
+   .column img:hover{opacity:0.6; }
+   
+   
+</style>
+</head>
+<body>
+<div class="header">
+<h1><b>GALLERY</b></h1>
+</div>
+<div class="row">
+<div class="column" id="column1">
+<a><img  id="img1" class="imgs" src="./img/cafe images/bolognese.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/cake.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/piz.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/pannacotta.jpg" alt="bolognese"></img></a>
+</div>
+<div  class="column" id="column2">
+<a><img  class="imgs" src="./img/cafe images/menu.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/trifle.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/pannacotta.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/uthappizza.png" alt="bolognese"></img></a>
+</div>
+<div class="column" id="column1">
+<a><img  class="imgs" src="./img/cafe images/piz.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/buffet.png" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/pasta.jpg" alt="bolognese"></img></a>
+<a><img  class="imgs" src="./img/cafe images/cake.jpg" alt="bolognese"></img></a>
+</div>
+</div>
+</body>
+
+</html>
